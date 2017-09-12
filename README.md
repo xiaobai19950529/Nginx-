@@ -22,17 +22,11 @@
    
     http-server -p port  直接在当前目录以port端口号启动http-server服务
     
+    sudo nginx -s reload 或
+    
+    sudo service nginx restart
+    
+    
 4. sudo nano /etc/nginx/nginx.conf
 
-    user  nginx;
-    worker_processes  1;
-    error_log  /var/log/nginx/error.log warn;
-    pid        /var/run/nginx.pid;
-
-
-events {
-    worker_connections  1024;
-}
-
-
-http {
+    负载均衡教程： http://natumsol.github.io/2016/03/16/nginx-basic/
