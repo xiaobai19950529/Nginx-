@@ -20,13 +20,13 @@
 
 3. sudo apt-get install http-server
    
-    http-server -p port  直接在当前目录以port端口号启动http-server服务
+      http-server -p port  直接在当前目录以port端口号启动http-server服务
     
-    sudo nginx -s reload 或
+      sudo nginx -s reload 或
     
-    sudo service nginx restart
+      sudo service nginx restart
     
     
 4. sudo nano /etc/nginx/nginx.conf
-
-    负载均衡教程： http://natumsol.github.io/2016/03/16/nginx-basic/
+  
+      负载均衡教程： http://natumsol.github.io/2016/03/16/nginx-basic/
